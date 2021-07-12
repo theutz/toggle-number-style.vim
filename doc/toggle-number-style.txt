@@ -1,0 +1,32 @@
+*toggle-number-style.txt* Switch between absolute and relative number styles
+>
+      _   _   _   _   _   _     _   _   _   _   _   _     _   _   _   _   _  
+     / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ / \   / \ / \ / \ / \ / \ 
+    ( T | o | g | g | l | e ) ( N | u | m | b | e | r ) ( S | t | y | l | e )
+     \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/ \_/ \_/ \_/ \_/   \_/ \_/ \_/ \_/ \_/ 
+<
+
+================================================================================
+Contents                                               *ToggleNumberStyleContents*
+
+1. Usage |ToggleNumberStyleUsage|
+2. Mappings |ToggleNumberStyleMappings|
+
+================================================================================
+1. Usage                                                  *ToggleNumberStyleUsage*
+
+This is a very simple plugin that simply allows you to switch between relative
+and non-relative number mode in your VIM gutter.
+
+================================================================================
+2. Mappings                                            *ToggleNumberStyleMappings*                                                                                
+
+This plugin exposes a single `<Plug>` mapping that can be remapped to any key
+you like.
+
+Example:
+
+>
+  let mapleader="\<Space>"
+  nmap <Leader>tn <Plug>(toggle-number-style)
+<
